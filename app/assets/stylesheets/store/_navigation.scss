@@ -1,6 +1,10 @@
 @import "colors";
 @import "mixins";
 
+#logo {
+  margin-top: 1.5em;
+}
+
 .taxons-list {
   @include no-bullets;
   margin: 0 0 1.5em -15px;
