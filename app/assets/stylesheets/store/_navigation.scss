@@ -69,12 +69,14 @@ ul#language-bar {
 }
 
 ul#nav-bar {
-  line-height: 50px;
+  max-width: 28em;
+  line-height: 3em;
   float: right;
   clear: both;
   font-size: 1.2em;
   list-style: none;
   @include no_margin_or_padding;
+  padding: 0 1em;
   li {
     float: left;
     margin-left: 1em;
