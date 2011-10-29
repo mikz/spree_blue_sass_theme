@@ -1,3 +1,6 @@
+$primary_link_color: #162f54;
+$background_color: #d4610c;
+
 $white: #FFF;
 $black: #000;
 $input_border: #BBB;
@@ -9,7 +12,11 @@ $lightest_blue: #BBDAFD;
 $light_blue: #E5F2F8;
 $dark_blue: #162F54;
 
-$link_color: #2E6AB1;
-$link_hover_color: $black;
+//$link_color: #2E6AB1;
+$link_color: #162f54;
+$link_color_alt: $background_color;
 
-$selling_price_color: $medium_blue;
+$link_hover_color: $black;
+$link_hover_color_alt: $white;
+
+$selling_price_color: $dark_blue;
